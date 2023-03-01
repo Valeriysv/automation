@@ -23,7 +23,7 @@ public class Authorization {
         driver.findElement(inputEmail).sendKeys(getDate.email);
         driver.findElement(inputPassword).sendKeys(getDate.password);
         driver.findElement(btmJoin).click();
-        
+
 
     }
     @Test
